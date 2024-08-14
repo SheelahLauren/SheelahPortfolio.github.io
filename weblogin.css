@@ -1,0 +1,67 @@
+body {
+     
+    margin: 0px;
+    background-image:url(bghtml.jpg);
+    background-size: cover;
+    position: cover;
+    font-family: 'Georgia';
+}
+
+p{
+text-align: justify;
+font-family: 'Georgia';
+font-weight: bolder;
+font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+}
+
+.login-box {
+    color: black;
+    padding: 50px;
+    border: 3px solid #82372;
+    border-radius: 10px;
+    width: 75vh;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px solid black;
+    border: 2px;
+    outline: none;
+    background-color: white;
+    border-radius: 1px;
+    font-size: medium;
+    
+}
+
+button[type="submit"] {
+    font-family: 'Georgia';
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    text-decoration: solid;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1px;
+    font-family: impact;
+}
